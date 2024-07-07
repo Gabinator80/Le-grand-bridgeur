@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Grand Bridgeur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <li><a id="logo" href="index.html">Le Grand Bridgeur</a></li>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="ench.html">Boites d'enchères</a></li>
+                <li><a href="cartes.html">Jeux de cartes</a></li>
+            </ul>
+        </div>
+        <p class="burger-menu">&#9776</p>
+    </div>
+    <div class="main">
+        <h1>Le meilleur site de bridge.</h1>
+        <br>
+        <p>Bienvenue sur le site du grand Bridgeur pas comme ce putain de site de merde le petit bridgeur BANDE D'ENCULER ON VA VOUS DOUBLER.</p>
+        <br>
+        <p>Pour être un peux plus sérieux et comme vous êtes sur le site de dark Erwan, nous vendons un tas de choses comme des godes... euh des cartes et boites d'enchères.</p>
+    </div>
+    
+</body>
+
+<script>
+    const menuburger = document.querySelector(".burger-menu");
+    const navlinks = document.querySelector(".nav-links");
+
+    menuburger.addEventListener("click", () => {
+        navlinks.classList.toggle('mobile-menu');
+    });
+</script>
+</html>
